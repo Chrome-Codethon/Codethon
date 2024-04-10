@@ -1,0 +1,386 @@
+html {
+
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    /* background-color: black; */
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.fondo-circuito {
+    background-image: url(https://binn.wpenginepowered.com/wp-content/uploads/2023/04/Valencia-NASCAR-Fest-2022-accion-1536x1024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Ajustar la imagen para cubrir todo el contenedor */
+    background-position: center;
+    /* Centrar la imagen */
+    background-attachment: fixed;
+    /* Fijar la imagen de fondo */
+}
+
+.fondo-naranja {
+    /* height: 1080px; */
+    background-image: linear-gradient(to right,
+            #ff6600 0%,
+            rgb(255, 102, 0) 25%,
+            rgba(255, 102, 0, 0) 100%);
+}
+
+main {
+    margin: 0;
+}
+
+
+.left-menu {
+    color: white;
+    justify-content: space-around;
+    height: 90%;
+    display: flex;
+    margin-left: 0;
+    list-style: none;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: start;
+}
+
+.left-menu li a {
+    padding: 1rem 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: start;
+    margin: 0 3vw;
+}
+
+
+.left-menu li i {
+    color: white;
+    font-size: 5rem;
+}
+
+.texto-iconos {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-image: linear-gradient(to right,
+            rgb(255, 255, 255) 0%,
+            rgb(255, 255, 255) 80%,
+            rgba(255, 102, 0, 0) 100%);
+    height: 80px;
+}
+
+.logo {
+    margin-left: 1rem;
+    width: 7rem;
+}
+
+.redes-sociales {
+
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    width: 10rem;
+    height: 40px;
+    margin-right: 2em;
+    align-items: center;
+    align-content: center;
+
+}
+
+.redes-sociales li a i {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: rgb(255, 128, 43);
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociales li a i {
+    color: white;
+    font-size: 1.7rem;
+}
+
+.front-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    flex-flow: row nowrap;
+}
+
+
+.slider {
+    padding: 2rem 0;
+    font-style: italic;
+    font-family: Montserrat;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.fecha-evento {
+    background-color: #ff6600;
+    transform: translate(20%);
+    color: #ff6600;
+    text-shadow:
+        -1px -1px 0 white,
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
+    /* Create a white outline */
+    font-size: 3rem;
+}
+
+.texto-evento {
+    transform: translate(3rem);
+    color: #ffffff;
+    text-shadow:
+        -1px -1px 0 rgb(0, 0, 0),
+        1px -1px 0 rgb(0, 0, 0),
+        -1px 1px 0 rgb(0, 0, 0),
+        1px 1px 0 rgb(0, 0, 0);
+    /* Create a white outline */
+    font-size: 4rem;
+}
+
+.slider p {
+    margin: 0;
+}
+
+.swiper {
+    height: 90%;
+    width: 70%;
+}
+
+.swiper-slide {
+    background: #ffffff;
+}
+
+.swiper-slide img {
+    position: fixed;
+    z-index: -2;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.swiper-slide:nth-child(2) {
+    background: #ffffff;
+}
+
+.swiper-slide:nth-child(3) {
+    background: #ffffff;
+}
+
+.swiper-slide:nth-child(4) {
+    background: #ffffff;
+}
+
+.swiper-slide:nth-child(5) {
+    background: #ffffff;
+}
+
+.swiper-slide:nth-child(6) {
+    background: #ffffff;
+}
+
+.swiper-slide:nth-child(7) {
+    background: #ffffff;
+}
+
+
+.button {
+    font-style: italic;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    display: flex;
+    align-self: center;
+    color: rgb(255, 255, 255);
+    background: #ff6600;
+    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: .5em 1em;
+    transition: all 1s;
+}
+
+.mySwiper {
+    border: 4px solid#000000;
+    border-radius: 20px;
+}
+
+.button:hover {
+
+    box-shadow: 0 0 0;
+}
+
+.parallelogram {
+    transform: skew(-20deg);
+}
+
+.skew-fix {
+    display: inline-block;
+    transform: skew(20deg);
+}
+
+.banda-naranja {
+    margin-top: 4rem;
+    height: 5rem;
+    background-image: linear-gradient(to top,
+            rgb(255, 102, 0) 50%,
+            rgba(255, 102, 0, 0) 100%);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .front-container {
+        flex-wrap: wrap;
+    }
+
+    .left-menu {
+        display: flex;
+        justify-content: space-evenly;
+        flex-flow: row wrap;
+        text-shadow:
+            -2px -2px 0 #ff6600,
+            2px -2px 0 #ff6600,
+            -2px 2px 0 #ff6600,
+            2px 2px 0 #ff6600;
+
+    }
+
+    .fecha-evento {
+        font-size: 2.5rem;
+    }
+
+    .texto-evento {
+        transform: translate(2rem);
+        font-size: 3rem;
+    }
+
+
+    .swiper {
+        height: 90%;
+        width: 90%;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* Styles for small devices */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* Styles for large devices */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* Styles for extra large devices */
+}
+
+.contenedor-imagen {
+    position: relative;
+    width: 100%;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+    display: block;
+    height: 30rem;
+}
+
+.banda-naranja2 {
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    /* border: 2px solid; */
+    background-image: linear-gradient(to bottom, #ff6600 50%, rgba(255, 102, 0, 0) 100%);
+}
+
+.banda-naranja2.top {
+    top: 0;
+}
+
+.banda-naranja2.bottom {
+    bottom: 0;
+    transform: rotate(180deg); /* Rotate the element by 180 degrees */
+}
+
+.text-overlay{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%); /* Center the text horizontally and vertically */
+    z-index: 3; /* Ensure the text appears above the bands */
+    color: white; /* Adjust text color */
+    font-size: 3rem; /* Adjust font size */
+    font-weight: bold; /* Adjust font weight */
+    font-family: Montserrat;
+}
+
+.text-overlay p{
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.boton-descubre{
+    font-style: italic;
+    align-self: center;
+    color: white;
+    background-color: #ff6600;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.text-overlay a i{
+    color: #ffffff;
+    margin-left: 3rem;
+    background-color: #ff6600;
+    padding: 0.8rem;
+    border-radius: 5px;
+    font-size: 2.5rem;
+}
+
+.text-overlay div{
+    display: flex;
+    align-items: center;
+}
