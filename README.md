@@ -1,4 +1,12 @@
-# Codethon
-Todos los archivos de la codethon equipo Cromo
-En este repositorio se encuentran todos los archivos relacionados con la información de los integrantes del grupo Cromo, el diseño grafico de la app y los prototipos que se hicieron en lenguajes como html, css y angular sin ionic.
-Para accder a la aplicacion en ionic, la cual será el producto final, usar este enlace: https://github.com/Pablops2219/ionic-app.
+# Equipo Cromo - Codethon
+
+¡Bienvenido al repositorio del equipo Cromo para Codethon!
+
+En este repositorio encontrarás todos los archivos relacionados con la información de los integrantes del equipo Cromo, el diseño gráfico de la aplicación y los prototipos desarrollados en lenguajes como HTML, CSS y Angular (sin Ionic).
+
+
+- **Diseño Gráfico**: Todos los recursos visuales utilizados en el proyecto.
+- **Prototipos**: Prototipos de la aplicación desarrollados en HTML, CSS y Angular.
+- **[Enlace a la Aplicación en Ionic](https://github.com/Pablops2219/ionic-app)**: Accede al repositorio de la aplicación final.
+
+
