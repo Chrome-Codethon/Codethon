@@ -15,7 +15,7 @@ Esta guía te proporcionará instrucciones detalladas sobre cómo desplegar la a
 - A través del archivo APK proporcionado en la raíz de este repositorio.
 - Clonando el repositorio y compilando el proyecto con Angular/Ionic.
 
-:warning: **¡Atención!** Es preferible que la aplicación sea desplegada en un dispositivo móvil debido a que muchas de las funcionalidades presentes no funcionan en la web o son versiones adaptadas. Sin embargo, si no hay más opciones, sigue la guía para el despliegue desde un ordenador.
+:warning: **¡Atención!** Es preferible que la aplicación sea desplegada en un dispositivo móvil debido a que muchas de las funcionalidades presentes no funcionan en web o son versiones adaptadas. Sin embargo se puede emular la aplicación, para eso sigue la guía para el despliegue desde un emulador android en ordenador.
 
 ## Instalación desde APK
 
