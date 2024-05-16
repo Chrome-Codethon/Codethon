@@ -19,8 +19,7 @@ Esta guía te proporcionará instrucciones detalladas sobre cómo desplegar la a
 
 ## Instalación desde APK
 
-1. Descarga [el archivo APK](https://raw.githubusercontent.com/Chrome-Codethon/Codethon/main/RicardoTormo.apk)
-) de la aplicación desde el enlace proporcionado.
+1. Descarga [el archivo APK](RicardoTormo.apk) de la aplicación desde el enlace proporcionado.
 2. Habilita la opción "Fuentes desconocidas" en la configuración de seguridad de tu dispositivo. Esto te permitirá instalar aplicaciones desde fuentes que no sean Google Play Store.
 3. Navega hasta la ubicación donde descargaste el archivo APK usando un administrador de archivos en tu dispositivo.
 4. Abre el archivo APK descargado para iniciar el proceso de instalación.
