@@ -15,7 +15,7 @@ Esta guía te proporcionará instrucciones detalladas sobre cómo desplegar la a
 - A través del archivo APK proporcionado en la raíz de este repositorio.
 - Clonando el repositorio y compilando el proyecto con Angular/Ionic.
 
-:warning: **¡Atención!** Es preferible que la aplicación sea desplegada en un dispositivo móvil debido a que muchas de las funcionalidades presentes no funcionan en la web o son versiones adaptadas. Sin embargo, si no hay más opciones, sigue [la guía para el despliegue desde un ordenador](https://github.com/Chrome-Codethon/Codethon/blob/main/README.md#instalacion-con-angular-ionic).
+:warning: **¡Atención!** Es preferible que la aplicación sea desplegada en un dispositivo móvil debido a que muchas de las funcionalidades presentes no funcionan en la web o son versiones adaptadas. Sin embargo, si no hay más opciones, sigue la guía para el despliegue desde un ordenador.
 
 ## Instalación desde APK
 
