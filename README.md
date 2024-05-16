@@ -4,22 +4,18 @@
 
 En este repositorio encontrarás todos los archivos relacionados con la información de los integrantes del equipo Cromo, el diseño gráfico de la aplicación y los prototipos desarrollados en lenguajes como HTML, CSS y Angular (sin Ionic).
 
-
 - **Diseño Gráfico**: Todos los recursos visuales utilizados en el proyecto.
-- **Prototipos**: Prototipos de la aplicación desarrollados en HTML, CSS y Angular.
+- **Prototipos**: Archivos de las aplicaciones desarrolladas en HTML, CSS y Angular.
 - **[Enlace a la Aplicación en Ionic](https://github.com/Pablops2219/ionic-app)**: Accede al repositorio de la aplicación final.
-
 
 # Instalación de la Aplicación Móvil Ricardo Tormo
 
-Esta guía te proporcionará instrucciones detalladas sobre cómo desplegar la aplicación móvil del equipo Cromo. 
-La aplicación puede ser desplagada de dos formas:
--A través del archivo APK proporcionado en la raíz de este repositorio
--Clonando el repositorio y compilando el proyecto con Angular/Ionic.
+Esta guía te proporcionará instrucciones detalladas sobre cómo desplegar la aplicación móvil del equipo Cromo. La aplicación puede ser desplegada de dos formas:
 
-:warning: **¡Atención!**
-Es preferible que la aplicación sea desplegada en un dispositivo móvil debido a que muchas de las funcionalidades presentes o no funcionan en web o son versiones adaptadas pero peores, sin embargo si no hay más opciones seguir [la guía para el despliegue desde un ordenador](#instalacion_con_angular_ionic).
+- A través del archivo APK proporcionado en la raíz de este repositorio.
+- Clonando el repositorio y compilando el proyecto con Angular/Ionic.
 
+:warning: **¡Atención!** Es preferible que la aplicación sea desplegada en un dispositivo móvil debido a que muchas de las funcionalidades presentes no funcionan en la web o son versiones adaptadas. Sin embargo, si no hay más opciones, sigue [la guía para el despliegue desde un ordenador](#instalacion-con-angular-ionic).
 
 ## Instalación desde APK
 
@@ -31,7 +27,7 @@ Es preferible que la aplicación sea desplegada en un dispositivo móvil debido 
 
 ## Instalación con Angular Ionic
 
-1. Asegúrate de tener Android Studio, Node.js y npm instalados en tu sistema. Puedes descargarlos desde [Web de Node.js](https://nodejs.org/), [Web de Android Studio]([https://nodejs.org/](https://developer.android.com/studio?hl=es-419)).
+1. Asegúrate de tener Android Studio, Node.js y npm instalados en tu sistema. Puedes descargarlos desde: [Web de Node.js](https://nodejs.org/), [Web de Android Studio](https://developer.android.com/studio?hl=es-419).
 2. Clona el repositorio de GitHub de la aplicación utilizando el siguiente comando en tu terminal:
 
    ```bash
@@ -50,22 +46,22 @@ Es preferible que la aplicación sea desplegada en un dispositivo móvil debido 
    npm install
    ```
 
-5. Compila el proyecto para generar los archivos necesarios para la aplicación **en android**:
+5. Compila el proyecto para generar los archivos necesarios para la aplicación **en Android**:
 
    ```bash
    ionic build
    ionic cap sync
    ```
 
-
 6. Abre la aplicación en Android Studio utilizando el siguiente comando:
 
    ```bash
    ionic cap open android
    ```
-7. En Android Studio compila la aplicación con el icono del martillo arriba a la derecha y déspues abréla con el boton de iniciar:
 
-  ![Texto alternativo 1](img/logo1.png) ![Texto alternativo 2](img/logo2.png)
+7. En Android Studio, compila la aplicación con el icono del martillo ubicado en la barra de herramientas y después ábrela con el botón de iniciar.
+
+   ![Instalación 1](img/install1.png) ![Instalación 2](img/install2.png)
 
 8. Una vez completados estos pasos, la aplicación "Ricardo Tormo" debería ejecutarse en el emulador de Android Studio.
 
