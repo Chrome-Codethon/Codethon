@@ -59,7 +59,7 @@ Esta guía te proporcionará instrucciones detalladas sobre cómo desplegar la a
    ionic cap open android
    ```
 
-7. En Android Studio, compila la aplicación con el icono del martillo ubicado en la barra de herramientas y después ábrela con el botón de iniciar.
+7. En Android Studio, compila la aplicación con el icono del martillo ubicado en la barra de herramientas y después ábrela con el botón de iniciar (Es necesaria la instalación de un emulador de android dentro de Android Studio).
 
    ![Instalación 1](img/install1.png) ![Instalación 2](img/install2.png)
 
